@@ -190,7 +190,7 @@ local function worker(user_args)
         for i = 0, #to_review_rows do to_review_rows[i]=nil end
         table.insert(to_review_rows, {
             {
-                markup = '<span size="large" color="#ffffff">PRs to review</span>',
+                markup = '<span size="large" color="#ffffff">MRs to review</span>',
                 align = 'center',
                 forced_height = 20,
                 widget = wibox.widget.textbox
@@ -202,7 +202,7 @@ local function worker(user_args)
         for i = 0, #my_review_rows do my_review_rows[i]=nil end
         table.insert(my_review_rows, {
             {
-                markup = '<span size="large" color="#ffffff">My PRs</span>',
+                markup = '<span size="large" color="#ffffff">My MRs</span>',
                 align = 'center',
                 forced_height = 20,
                 widget = wibox.widget.textbox
